@@ -1,0 +1,72 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout>
+	<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title></title>
+    </head>
+    <body>
+        <div class="container-home">
+            <h1>Preparate para un desafió emocionante en el campeonato online</h1>
+            <p>9 y 10 de MAYO del 2025</p>
+            <a class="btn-comprar" href="/entradas">Comprar ya</a>
+        </div>
+    </body>
+    </html>
+</Layout>
+
+<style>
+    body {
+       
+    }
+
+    .container-home {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: calc(100vh - 56px);
+    }
+
+    h1 {
+        color: #fff;
+        width: 80%;
+        text-align: center;
+        font-size: 3.2rem;
+        text-shadow: 
+            -1px -1px 0 #4e0929,  
+             1px -1px 0 #4e0929,
+            -1px  1px 0 #4e0929,
+             5px  5px 3px #4e0929;
+    }
+
+    p {
+        color: #da3e8f;
+        font-size: 1.5rem;
+        font-weight: 600;
+        background-color: white;
+        padding: 10px 20px;
+        border-radius: 15px;
+        border: 1px solid #4e0929;
+    }
+
+    .btn-comprar {
+        background-color: #4e0929;
+        color: #fff;
+        padding: 10px 20px;
+        border-radius: 13px;
+        text-decoration: none;
+        font-size: 1.5rem;
+        margin-top: 20px;
+    }
+
+    .btn-comprar:hover {
+        background-color: #ba1c6a;
+        transform: scale(1.1);
+    }
+</style>

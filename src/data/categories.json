@@ -1,0 +1,39 @@
+[
+    {
+      "title": "DIAMOND",
+      "description": "CONGRESO + CAMPEONATO (2 CATEGORIAS)",
+      "price": "$130 USD",
+      "linkMp": "https://www.mercadopago.com.ar/checkout/v1/redirect?preference-id=659395099-ad628f3b-1ea0-49ac-b30b-e912b968fc13",
+      "linkPp": "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=KX9PFTDK2FQGQ"
+    },
+    {
+      "title": "GOLD",
+      "description": "CONGRESO + CAMPEONATO (1 CATEGORIAS)",
+      "price": "$110 USD",
+      "promo": "",
+      "linkMp": "https://www.mercadopago.com.ar/checkout/v1/redirect?preference-id=659395099-ad628f3b-1ea0-49ac-b30b-e912b968fc13",
+      "linkPp": "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=3A3267RZ5NY7W"
+    },
+    {
+      "title": "SILVER",
+      "description": "CONGRESO",
+      "price": "$100 USD",
+      "promo": "$80 USD PROMO LANZAMIENTO",
+      "linkMp": "https://www.mercadopago.com.ar/checkout/v1/redirect?preference-id=659395099-ad628f3b-1ea0-49ac-b30b-e912b968fc13",
+      "linkPp": "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=R9L32VJLS2G26"
+    },
+    {
+      "title": "CATEGORIAS AD.",
+      "description": "",
+      "price": "$20 USD",
+      "linkMp": "https://www.mercadopago.com.ar/checkout/v1/redirect?preference-id=659395099-ad628f3b-1ea0-49ac-b30b-e912b968fc13",
+      "linkPp": "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=C52N9H5CRV4GW"
+    },
+    {
+      "title": "RESERVAS",
+      "description": "PODES RESERVAR TU LUGAR",
+      "price": "$50 USD",
+      "linkMp": "https://www.mercadopago.com.ar/checkout/v1/redirect?preference-id=659395099-ad628f3b-1ea0-49ac-b30b-e912b968fc13",
+      "linkPp": "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=UPLVHYNQXS7N2"
+    }
+  ]

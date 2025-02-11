@@ -1,0 +1,32 @@
+---
+// Importa el archivo JSON
+import categories from '../data/categories.json';
+import Layout from '../layouts/Layout.astro';
+import Card from '../components/card.astro';
+---
+
+<Layout>
+  <div class="content-cards">
+    {categories.map(category => (
+      <Card
+        title={category.title}
+        description={category.description}
+        price={category.price}
+        promo={category.promo}
+        linkMp={category.linkMp}
+        linkPp={category.linkPp}
+      />
+    ))}
+  </div>
+</Layout>
+
+<style>
+  .content-cards {
+    padding: 5rem 10rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;  
+    gap: 3rem;
+  }
+</style>
+
